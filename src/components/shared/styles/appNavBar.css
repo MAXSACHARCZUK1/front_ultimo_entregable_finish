@@ -1,0 +1,16 @@
+.navbar {
+    z-index: 10;
+}
+.nav__bar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* margin-bottom: 10rem; */
+}
+.logo{
+    height: 2.7rem;
+    margin-left: 0.5rem;
+    width: auto;
+}

@@ -1,0 +1,119 @@
+.logout__container,
+.login__container {
+    position: relative;
+    top: 10rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: red; */
+}
+.login__card {
+    position: relative;
+    /* top: 12rem; */
+    width: 25rem;
+    height: 28rem;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+
+}
+.login__test__data {
+    background-color: rgb(80, 79, 79);
+    border-radius: 10px;
+    padding: .6rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.login__test__data h5 {
+    color: white !important;
+}
+.test__data {
+    display: flex;
+    gap: .5rem;
+}
+.test__data p,
+.icon { 
+    text-transform: lowercase !important;
+    color: white !important;
+}
+.login__inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.login__btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    height: 2rem;
+    margin-top: .5rem;
+}
+#email, 
+#password {
+    outline: none;
+}
+.sign_up_msg {
+    font-size: .9rem;
+    text-align: left;
+    padding-top: .7rem;
+    
+}
+.logout__card {
+    position: relative;
+    /* top: 17rem; */
+    width: 30rem;
+    height: 23rem;
+    color: black;
+    border-radius: 10px;
+    border: 5px solid black;
+    border-inline: 5px solid black;
+}
+.img__container {
+    position: relative;
+    background-color: black;
+    padding-top: 1.5rem;
+    height: 13rem;
+    width: 100%;
+    top: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 2rem;
+
+}
+.logout__card img {
+    width: 10rem;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+.logout__card h4 {
+    margin: 2rem 0;
+    font-size: 1.8rem !important;
+}
+
+
+.logout__card button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none !important;
+    /* position: relative; */
+    bottom: 2rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: .3rem 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.logout__card button:hover {
+    filter: brightness(1.5);
+    background-color: rgb(47, 46, 46);
+
+}

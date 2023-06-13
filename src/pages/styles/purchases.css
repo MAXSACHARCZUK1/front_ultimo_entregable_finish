@@ -1,0 +1,7 @@
+.main__container {
+    position: relative;
+    width: 85%;
+    z-index: 1;
+    top: 10rem;
+    margin: 0 auto;
+}
